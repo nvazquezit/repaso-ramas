@@ -31,3 +31,10 @@ git add . # agrega todos los archivos
 ```sh
 git commit -m "mensaje descriptivo del commit"
 ```
+
+# Cambiar el editor por nano
+
+```sh
+git config --global core.editor nano
+git config --global core.editor "code --wait"
+```
