@@ -45,3 +45,16 @@ git config --global core.editor "code --wait"
 git log # version larga
 git log --oneline # version corta
 ```
+
+# Agregar un remoto a mi repositorio local
+
+```sh
+git remote add origin https://github.com/xxxxxxx # esto lo vas a agregar cuando se cree el repositorio desde github
+```
+
+# Para ver si se agrego el repo remoto
+
+```sh
+git remote -v
+```
+
