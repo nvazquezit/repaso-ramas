@@ -63,3 +63,11 @@ git remote -v
 git push -u origin main # la primera vez
 git push # cada vez que quiero subir el repo
 ```
+# Para recuperar mi codigo luego de na catastrofe (perder todo jaja)
+Ir al repositorio de GitHub, hacer click sobre el boton code y copiar la url a mi repositorio
+
+```sh
+git clone <url-al-repositorio>
+git clone git@github.com:nvazquezit/xxxxx ./ # clona el directorio actual
+git clone git@github.com:nvazquezit/xxxxx # crea una carpeta (repaso ramas) y clona el repositorio al local.
+```
