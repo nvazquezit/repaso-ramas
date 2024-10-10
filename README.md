@@ -38,3 +38,10 @@ git commit -m "mensaje descriptivo del commit"
 git config --global core.editor nano
 git config --global core.editor "code --wait"
 ```
+
+# Ver listado  de commits que hice en el repo
+
+```sh
+git log # version larga
+git log --oneline # version corta
+```
