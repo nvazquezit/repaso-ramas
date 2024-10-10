@@ -1,8 +1,10 @@
-# Clase 06 Repaso GIT
+# Clase 06 - Bootcamp
 
-## git y ramas
+# Repaso GIT
 
+## Comando para sacar del area intermedia lo que pusimos en add
 
+```sh
+git rm --cached <nombre del archivo>
 ```
-sh
-```
+
