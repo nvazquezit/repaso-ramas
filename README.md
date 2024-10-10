@@ -57,4 +57,9 @@ git remote add origin https://github.com/xxxxxxx # esto lo vas a agregar cuando 
 ```sh
 git remote -v
 ```
+# Subo al remoto el repositorio local
 
+```sh
+git push -u origin main # la primera vez
+git push # cada vez que quiero subir el repo
+```
